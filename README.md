@@ -2,6 +2,55 @@
 
 This project is built using the Java MVC architecture to provide image manipulation and enhancement functionalities.
 
+---
+
+## Running Script Commands:
+
+### Running a Script at Program Start:
+To execute a script on start of the application, use the following syntax:
+```bash
+    java -jar Application.jar -file <filename>
+```
+
+The jar file can be found in the res folder.
+
+- Use the script file `testNewFeaturesJar.txt` in the `res` folder of the project.
+- Run the jar file by using the command `java -jar Application.jar -file testNewFeaturesJar.txt`, to test the newly added features.
+- Run the jar file by using the command `java -jar Application.jar -file testFeaturesJar.txt`, to test all the features.
+- The application will sequentially execute commands from `testNewFeaturesJar.txt`, storing the results to the specified directory and exit program execution.
+
+### Running the Program in Console View:
+A user can run the program in console view using the below syntax:
+
+```bash
+    java -jar Application.jar -text
+```
+
+### Running the Program in GUI View:
+A user can run the program in GUI view using the below syntax:
+
+```bash
+    java -jar Application.jar
+```
+
+OR
+
+A user can be simply click of Application.jar to open GUI.
+
+### Running a Script After Program Start in Console View:
+A user can also run a script after the application has started by following the below steps:
+
+```bash
+    run <filename>
+```
+
+- Place the script file (example: commands.txt) in the `res` folder of your project.
+- Run the `jar` file by using the command `java -jar program.jar`.
+- When prompted for commands, type out: `run res/commands.txt`.
+- The application will sequentially execute commands from `commands.txt`, outputting results to the specified directory.
+
+---
+
 ## Model
 
 The Model component in MVC architecture represents the application's data structures and business logic. It directly manages the data and the rules to manipulate that data.
@@ -925,48 +974,6 @@ The `Split Command Argument` allows users to provide a percentage as an argument
   ```
 
 ---
-
-## Running Script Commands:
-
-### Running a Script at Program Start:
-To execute a script on start of the application, use the following syntax:
-```bash
-    java -jar Assignment6.jar -file <filename>
-```
-- Use the script file `testNewFeaturesJar.txt` in the `res` folder of the project.
-- Run the jar file by using the command `java -jar Assignment6.jar -file testNewFeaturesJar.txt`, to test the newly added features in the assignment-5.
-- Run the jar file by using the command `java -jar Assignment6.jar -file testFeaturesJar.txt`, to test all the features in the assignment-4 and assignment-5.
-- The application will sequentially execute commands from `testNewFeaturesJar.txt`, storing the results to the specified directory and exit program execution.
-
-### Running the Program in Console View:
-A user can run the program in console view using the below syntax:
-
-```bash
-    java -jar Assignment6.jar -text
-```
-
-### Running the Program in GUI View:
-A user can run the program in GUI view using the below syntax:
-
-```bash
-    java -jar Assignment6.jar
-```
-
-OR
-
-A user can be simply click of Assignment6.jar to open GUI.
-
-### Running a Script After Program Start in Console View:
-A user can also run a script after the application has started by following the below steps:
-
-```bash
-    run <filename>
-```
-
-- Place the script file (example: commands.txt) in the `res` folder of your project.
-- Run the `jar` file by using the command `java -jar program.jar`.
-- When prompted for commands, type out: `run res/commands.txt`.
-- The application will sequentially execute commands from `commands.txt`, outputting results to the specified directory.
 
 ## Image Source
 
