@@ -75,30 +75,30 @@
 ### Running a Script at Program Start:
 To execute a script on start of the application, use the following syntax:
 ```bash
-    java -jar Assignment6.jar -file <filename>
+    java -jar Application.jar -file <filename>
 ```
 - Use the script file `testNewFeaturesJar.txt` in the `res` folder of the project.
-- Run the jar file by using the command `java -jar Assignment6.jar -file testNewFeaturesJar.txt`, to test the newly added features in the assignment-5.
-- Run the jar file by using the command `java -jar Assignment6.jar -file testFeaturesJar.txt`, to test all the features in the assignment-4 and assignment-5.
+- Run the jar file by using the command `java -jar Application.jar -file testNewFeaturesJar.txt`, to test the newly added features.
+- Run the jar file by using the command `java -jar Application.jar -file testFeaturesJar.txt`, to test all the features.
 - The application will sequentially execute commands from `testNewFeaturesJar.txt`, storing the results to the specified directory and exit program execution.
 
 ### Running the Program in Console View:
 A user can run the program in console view using the below syntax:
 
 ```bash
-    java -jar Assignment6.jar -text
+    java -jar Application.jar -text
 ```
 
 ### Running the Program in GUI View:
 A user can run the program in GUI view using the below syntax:
 
 ```bash
-    java -jar Assignment6.jar
+    java -jar Application.jar
 ```
 
 OR
 
-A user can be simply click of Assignment6.jar to open GUI.
+A user can be simply click of Application.jar to open GUI.
 
 ### Running a Script After Program Start in Console View:
 A user can also run a script after the application has started by following the below steps:
