@@ -1,0 +1,51 @@
+load res\imagesPNG\testSpider.png testSpider
+compress 0 testSpider compressedImgSpider0
+save res\imagesPNG\compressedSpider0.png compressedImgSpider0
+
+load res\imagesPNG\testSpider.png testSpider
+compress 10 testSpider compressedImgSpider10
+save res\imagesPNG\compressedSpider10.png compressedImgSpider10
+
+load res\imagesPNG\testSpider.png testSpider
+compress 20 testSpider compressedImgSpider20
+save res\imagesPNG\compressedSpider20.png compressedImgSpider20
+
+load res\imagesPNG\testSpider.png testSpider
+compress 30 testSpider compressedImgSpider30
+save res\imagesPNG\compressedSpider30.png compressedImgSpider30
+
+load res\imagesPNG\testSpider.png testSpider
+compress 40 testSpider compressedImgSpider40
+save res\imagesPNG\compressedSpider40.png compressedImgSpider40
+
+load res\imagesPNG\testSpider.png testSpider
+compress 50 testSpider compressedImgSpider50
+save res\imagesPNG\compressedSpider50.png compressedImgSpider50
+
+load res\imagesPNG\testSpider.png testSpider
+compress 60 testSpider compressedImgSpider60
+save res\imagesPNG\compressedSpider60.png compressedImgSpider60
+
+load res\imagesPNG\testSpider.png testSpider
+compress 70 testSpider compressedImgSpider70
+save res\imagesPNG\compressedSpider70.png compressedImgSpider70
+
+load res\imagesPNG\testSpider.png testSpider
+compress 80 testSpider compressedImgSpider80
+save res\imagesPNG\compressedSpider80.png compressedImgSpider80
+
+load res\imagesPNG\testSpider.png testSpider
+compress 90 testSpider compressedImgSpider90
+save res\imagesPNG\compressedSpider90.png compressedImgSpider90
+
+load res\imagesPNG\testSpider.png testSpider
+compress 95 testSpider compressedImgSpider95
+save res\imagesPNG\compressedSpider95.png compressedImgSpider95
+
+load res\imagesPNG\testSpider.png testSpider
+compress 99 testSpider compressedImgSpider99
+save res\imagesPNG\compressedSpider99.png compressedImgSpider99
+
+load res\imagesPNG\testSpider.png testSpider
+compress 100 testSpider compressedImgSpider100
+save res\imagesPNG\compressedSpider100.png compressedImgSpider100

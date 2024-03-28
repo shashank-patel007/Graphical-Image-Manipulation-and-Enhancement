@@ -1,0 +1,44 @@
+load nyc.jpg testNYC
+color-correct testNYC testColorCorrection
+save newFeature\colorCorrectionNYC.jpg testColorCorrection
+histogram testColorCorrection testHistogramNYC
+save newFeature\histogramColorCorrectionNYC.jpg testHistogramNYC
+
+
+load nyc.jpg testNYC
+levels-adjust 20 100 255 testNYC testLevelAdjustment
+save newFeature\levelAdjustmentNYC.jpg testLevelAdjustment
+histogram testLevelAdjustment testHistogramNYC
+save newFeature\histogramLevelsAdjustNYC.jpg testHistogramNYC
+
+load nyc.jpg testNYC
+levels-adjust 30 150 245 testNYC testLevelAdjustment2
+save newFeature\levelAdjustmentNYC2.jpg testLevelAdjustment2
+histogram testLevelAdjustment2 testHistogramNYC
+save newFeature\histogramLevelsAdjustNYC2.jpg testHistogramNYC
+
+
+load nyc.jpg testNYC
+compress 50 testNYC compressedImg50
+save newFeature\testCompressedNYC50.jpg compressedImg50
+histogram compressedImg50 testHistogramNYC
+save newFeature\histogramCompressedNYC.jpg testHistogramNYC
+
+compress 30 testNYC compressedImg30
+save newFeature\testCompressedNYC30.jpg compressedImg30
+histogram compressedImg30 testHistogramNYC
+save newFeature\histogramCompressedNYC2.jpg testHistogramNYC
+
+load nyc.jpg testNYC
+luma-component testNYC testLumaSplit split 50
+save newFeature\lumaSplitNYC.jpg testLumaSplit
+
+load nyc.jpg testNYC
+sharpen testNYC testSharpenSplit split 50
+save newFeature\sharpenSplitNYC.jpg testSharpenSplit
+
+
+load nyc.jpg testNYC
+color-correct testNYC testColorCorrectionSplit split 50
+save newFeature\colorCorrectionSplitNYC.jpg testColorCorrectionSplit
+

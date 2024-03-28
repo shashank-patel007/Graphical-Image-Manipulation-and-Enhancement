@@ -1,0 +1,61 @@
+load res\nyc.jpg testNYC
+save res\imagesJPG\testNYC.jpg testNYC
+
+blur testNYC testBlur
+save res\imagesJPG\blurNYC.jpg testBlur
+
+sharpen testNYC testSharpen
+save res\imagesJPG\sharpenNYC.jpg testSharpen
+
+sepia testNYC testSepia
+save res\imagesJPG\sepiaNYC.jpg testSepia
+
+red-component testNYC testRed
+save res\imagesJPG\redNYC.jpg testRed
+
+green-component testNYC testGreen
+save res\imagesJPG\greenNYC.jpg testGreen
+
+blue-component testNYC testBlue
+save res\imagesJPG\blueNYC.jpg testBlue
+
+value-component testNYC testValue
+save res\imagesJPG\valueNYC.jpg testValue
+
+intensity-component testNYC testIntensity
+save res\imagesJPG\intensityNYC.jpg testIntensity
+
+luma-component testNYC testLuma
+save res\imagesJPG\lumaNYC.jpg testLuma
+
+
+brighten 50 testNYC Brighten50Man
+save res\imagesJPG\NYCBrighten50Man.jpg Brighten50Man
+
+brighten -50 testNYC Brighten-50Man
+save res\imagesJPG\NYCBrighten-50Man.jpg Brighten-50Man
+
+brighten 500 testNYC Brighten500Man
+save res\imagesJPG\NYCBrighten500Man.jpg Brighten500Man
+
+brighten -500 testNYC Brighten-500Man
+save res\imagesJPG\NYCBrighten-500Man.jpg Brighten-500Man
+
+
+rgb-split testNYC splitRed splitGreen splitBlue
+save res\imagesJPG\NYCSplitRed.jpg splitRed
+save res\imagesJPG\NYCSplitGreen.jpg splitGreen
+save res\imagesJPG\NYCSplitBlue.jpg splitBlue
+
+rgb-combine testCombineNYC testRed testGreen testBlue
+save res\imagesJPG\testCombineNYC.jpg testCombineNYC
+
+vertical-flip testNYC testVerticalNYC
+save res\imagesJPG\testVerticalNYC.jpg testVerticalNYC
+
+horizontal-flip testNYC testHorizontalNYC
+save res\imagesJPG\testHorizontalNYC.jpg testHorizontalNYC
+
+save res\nyc.png testNYC
+save res\nyc.jpeg testNYC
+save res\nyc.ppm testNYC

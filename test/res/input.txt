@@ -1,0 +1,19 @@
+load test\res\nyc.png testNYC
+save test\res\testNYC.png testNYC
+blur testNYC testBlur
+sharpen testNYC testSharpen
+sepia testNYC testSepia
+red-component testNYC testRed
+green-component testNYC testGreen
+blue-component testNYC testBlue
+value-component testNYC testValue
+intensity-component testNYC testIntensity
+luma-component testNYC testLuma
+brighten 50 testNYC Brighten50Man
+brighten -50 testNYC Brighten-50Man
+brighten 500 testNYC Brighten500Man
+brighten -500 testNYC Brighten-500Man
+rgb-split testNYC splitRed splitGreen splitBlue
+rgb-combine testCombineNYC testRed testGreen testBlue
+vertical-flip testNYC testVerticalNYC
+horizontal-flip testNYC testHorizontalNYC
